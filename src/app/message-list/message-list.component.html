@@ -1,0 +1,7 @@
+<div class="container">
+  <h2>messages:</h2>
+  <div class="card text-white bg-dark mb-3" style="max-width: 30rem" *ngFor="let message of messages">
+    <div class="card-header">{{message.title}}</div>
+    <div class="card-body">{{message.message}}</div>
+  </div>
+</div>
